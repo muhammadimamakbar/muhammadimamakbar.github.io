@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Light System (TLS)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>THIS IS A HEADER</header>
+    <section>
+        <div class="tls-system" id="tls-1">
+            <div class="main-tool">
+                <div class="cctv">
+                    
+                    <iframe src="http://110.4.178.160:5006/viewer/live/index.html?lang=en" frameborder="0" title="cctv1">CCTV</iframe>
+                </div>
+                <div class="light" id="light-1">LIGHTS
+                    <div class="led red" id="red-1"></div>
+                    <div class="led green" id="green-1"></div>
+                </div>
+            </div>
+            <div class="tool" id="tool-1">
+                <button type="button" onclick="">PUSH</button>
+                <div class="car-num tool-items" id="car-num-1">CAR-NUM</div>
+                <div class="time-count tool-items" id="time-count-1">TIME COUNTER</div>
+            </div>
+        </div>
+
+        <div class="tls-system" id="tls-2">
+            <div class="main-tool">
+                <div class="light" id="light-2">LIGHTS
+                    <div class="led red" id="red-2"></div>
+                    <div class="led green" id="green-2"></div>
+                </div>
+                <div class="cctv">
+                
+                <iframe src="" frameborder="0" title="cctv2">CCTV</iframe>
+                </div>
+            </div>
+            <div class="tool" id="tool-2">
+                <div class="time-count tool-items" id="time-count-2">TIME COUNTER</div>
+                <div class="car-num tool-items" id="car-num-2">CAR-NUM</div>
+                <button type="button" onclick="">PUSH</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
