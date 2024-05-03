@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Traffic Light System (TLS)</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js">
+        setInterval(function() {
+            traffic(); 
+        }, 5000);
+    </script>
 </head>
 
 <body>
@@ -16,7 +20,7 @@
             <div class="main-tool">
                 <div class="cctv">
                     
-                    <iframe src="http://110.4.178.160:5006/viewer/live/index.html?lang=en" frameborder="0" title="cctv1">CCTV</iframe>
+                    <iframe src="" frameborder="0" title="cctv1">CCTV</iframe>
                 </div>
                 <div class="light" id="light-1">LIGHTS
                     <div class="led red" id="red-1"></div>
